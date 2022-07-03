@@ -1,0 +1,59 @@
+/*
+ Assignment: Responive Travel
+ Responsive CSS for Responsive Travel
+ Author: Audrey Harmon
+ Date:   July 3, 2022
+
+ Filename: responsiveStyle.css
+*/
+
+@media screen and (max-width: 568px) {
+
+  .section1 p {
+    display: none;
+  }
+
+  .content_title {
+    display: none;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 568px) {
+
+    .section1 {
+      columns: 3;
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section1 img {
+      width: 250px;
+      height: 350px;
+      text-align: center;
+    }
+
+    .main {
+      columns: 2;
+      margin: auto;
+      height: 450px;
+      padding-top: 25px;
+    }
+
+    .main_content {
+      width: 90%;
+      break-inside: avoid;
+    }
+
+    .aside {
+      width: 10%;
+      margin: auto;
+      text-align: center;
+      padding-top: 90px;
+    }
+}
